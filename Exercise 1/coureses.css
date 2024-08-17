@@ -1,0 +1,127 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff; 
+    color: #000; 
+}
+
+
+header {
+    background-color: #e0f7fa; 
+    color: #000; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold;
+}
+
+
+.courses {
+    padding: 50px 0;
+    background-color: #ffffff; 
+    text-align: center;
+}
+
+.courses .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px; 
+}
+
+.courses ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; 
+}
+
+.course-item {
+    background-color: #f4f4f4; 
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd; 
+    margin-bottom: 10px; 
+}
+
+.course-item p {
+    margin-bottom: 10px; 
+}
+
+.course-item .download-button {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.course-item .download-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #e0f7fa; 
+    color: #000; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
